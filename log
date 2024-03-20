@@ -20,3 +20,14 @@ Wed 20 Mar 2024 04:50:51 PM UTC:
  tests:  2|3
 total_score: 20/70
 8bda400
+Wed 20 Mar 2024 04:52:35 PM UTC: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:88:11: error: cast from pointer to integer of different size [-Werror=pointer-to-int-cast]
+   88 |       if ((int)elemento == elem)
+      |           ^
+cc1: all warnings being treated as errors
+Compilation failed
+e35bbcb
