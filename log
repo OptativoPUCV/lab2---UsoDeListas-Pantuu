@@ -31,3 +31,9 @@ exercises.c:88:11: error: cast from pointer to integer of different size [-Werro
 cc1: all warnings being treated as errors
 Compilation failed
 e35bbcb
+Wed 20 Mar 2024 04:55:12 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|2
+total_score: 40/70
+11b472a
